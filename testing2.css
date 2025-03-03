@@ -1,5 +1,21 @@
 body 
 {
-    background-color: rebeccapurple;
+    background: url('asset\ test/img.jpg') no-repeat;
     font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    display: grid;
+    align-items: center;
+    min-width: 100vh;
 }
+
+.wrapper 
+{
+    background-color:  rgb(222, 184, 135, 0.4);
+    color: black;
+    width: 100%;
+    max-width: 1000px;
+}   
